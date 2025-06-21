@@ -1,0 +1,3 @@
+"E:\Code_alpha\GUI-Based Student Grade Manager\src\Student.java"
+"E:\Code_alpha\GUI-Based Student Grade Manager\src\StudentController.java"
+"E:\Code_alpha\GUI-Based Student Grade Manager\src\StudentGradeManagerFX.java"

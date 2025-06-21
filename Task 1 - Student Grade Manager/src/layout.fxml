@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.geometry.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="StudentController"
+      spacing="15" alignment="TOP_CENTER"
+      prefWidth="1000" prefHeight="1000"
+      style="-fx-padding: 30; -fx-background-color: linear-gradient(to bottom, #f0f8ff, #e6f7ff);">
+
+    <!-- Title Label -->
+    <Label text="📘 Student Grade Manager"
+           style="-fx-font-size: 28px; -fx-text-fill: #2c3e50; -fx-font-weight: bold;" />
+
+    <!-- Input Area -->
+    <HBox spacing="10" alignment="CENTER">
+        <TextField fx:id="studentCountField" promptText="Enter number of students"
+                   style="-fx-pref-width: 240; -fx-font-size: 14px;" />
+        <Button text="➕ Generate Fields" onAction="#generateFields"
+                style="-fx-background-color: #3498db; -fx-text-fill: white; -fx-font-weight: bold;" />
+    </HBox>
+
+    <!-- Dynamic Input Fields -->
+    <ScrollPane fitToWidth="true" prefHeight="200" style="-fx-background-color: transparent;">
+        <VBox fx:id="inputContainer" spacing="10"
+              style="-fx-padding: 10; -fx-background-color: #ffffff; -fx-border-color: #dcdcdc; -fx-border-radius: 8; -fx-background-radius: 8;" />
+    </ScrollPane>
+
+    <!-- Report Button -->
+    <Button text="📊 Generate Report" onAction="#generateReport"
+            style="-fx-background-color: #2ecc71; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-padding: 10 20; -fx-border-radius: 8; -fx-background-radius: 8;" />
+
+    <!-- Output Area (Much Larger) -->
+    <TextArea fx:id="outputArea"
+              prefRowCount="40" prefHeight="500" wrapText="true"
+              style="-fx-font-family: 'Consolas'; -fx-font-size: 14px; -fx-control-inner-background: #f9f9f9; -fx-border-color: #ccc; -fx-border-radius: 8; -fx-background-radius: 8;" />
+
+    <!-- Chart -->
+    <PieChart fx:id="pieChart" prefHeight="400" prefWidth="700"
+              style="-fx-border-color: #cccccc; -fx-border-radius: 8; -fx-background-radius: 8;" />
+</VBox>

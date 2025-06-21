@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run StudentGradeManagerFX",
+      "request": "launch",
+      "mainClass": "StudentGradeManagerFX",
+      "vmArgs": "--module-path \"C:/Users/OS/Downloads/openjfx-17.0.15_windows-x64_bin-sdk/javafx-sdk-17.0.15/lib\" --add-modules javafx.controls,javafx.fxml",
+      "cwd": "${workspaceFolder}/src"
+    }
+  ]
+}
