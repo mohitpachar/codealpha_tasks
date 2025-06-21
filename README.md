@@ -12,7 +12,7 @@ A JavaFX application to input, calculate, and display student grades with added 
 - FXML support
 - Input validation
 
-➡️ [See here](./Task%201%20-%20Student%20Grade%20Manager/README.md)
+➡️ [See here]([./Task%201%20-%20Student%20Grade%20Manager/README.md](https://github.com/mohitpachar/StudentGradeManager/blob/main/README.md))
 
 ---
 
@@ -22,7 +22,7 @@ An AI chatbot built using Java with:
 - Embedded Jetty server
 - Web interface using HTML + Java
 
-➡️ [See here](./Task%202%20-%20AI%20Chatbot/README.md)
+➡️ [See here]([./Task%202%20-%20AI%20Chatbot/README.md](https://github.com/mohitpachar/AiChatBot/blob/main/README.md))
 
 ---
 
